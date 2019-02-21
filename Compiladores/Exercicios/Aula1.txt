@@ -1,0 +1,9 @@
+1) (Sebesta, 2000) O estudo dos processadores de linguagens é justificado pela importância das linguagens de programação de alto-nível no desenvolvimento de programas. Que importância é essa?
+
+Linguagens de programação de alto-nível são fundamentais para o desenvolvimento de programas pois garantem produtividade, facilidade de manutenção, segurança e portabilidade, além de possuir um nível de abstração relativamente elevado tornando a linguagem de programação mais próxima à linguagem humana quando comparadas com as linguagens de baixo-nível. Linguagens de baixo-nível são utilizadas atualmente apenas em situações muito especiais, como drivers, e por isso temos uma dependência muito grande de bons processadores de linguagens (compiladores, interpretadores etc) em diversas áreas de aplicação.
+
+
+2) (José Neto, 2016) Que são metalinguagens? Exemplifique com alguns casos conceitualmente variados.
+
+Meta linguagem pode ser tido como uma linguagem pra criar linguagens, sendo responsável pela sintaxe da linguagem de programação; 
+Um exemplo de uma metalinguagem bastante utilizada é o XML, que é usada para descrever o XHTML, entre outas formas, como documentos de texto.
