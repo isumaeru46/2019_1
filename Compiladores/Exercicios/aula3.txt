@@ -1,0 +1,45 @@
+=> Exercício 03.38  --  Análise Preditiva Tabular, com recuperação local de erros
+
+z y x - * * x *
+
+G = ({A, B, C}, {+, -, *, /, x, y, z}, P, A)
+P = {A → AAB | C
+     B → + | - | * | /
+     C → x | y | z}
+	 
+=> Eliminação de Recursividade à Esquerda:
+
+G = ({A, B, C, D}, {+, -, *, /, x, y, z}, P, A)
+P = {A → CD
+     D → ABD | ε
+     B → + | - | * | /
+     C → x | y | z}
+	 
+=> Fatoração à Esquerda:
+
+G = ({A, B, C, D}, {+, -, *, /, x, y, z}, P, A)
+P = {A → CD
+     D → ABD | ε
+     B → + | - | * | /
+     C → x | y | z}
+	 
+	 
+=> Conjuntos FIRST(α) e FOLLOW(A):
+
+FIRST(A) = {x, y, z}
+FIRST(B) = {+, -, *, /}
+FIRST(C) = {x, y, z}
+FIRST(D) = {x, y, z, ε}
+
+FOLLOW(A) = {+, -, *, /, $}
+FOLLOW(B) = {+, -, *, /, x, y, z, $}
+FOLLOW(C) = {+, -, *, /, x, y, z, $}
+FOLLOW(D) = {+, -, *, /, $}
+
+=> Tabela de Análise Preditiva:
+
+Excel
+
+=> Analisador Preditivo Tabular:
+
+Excel
