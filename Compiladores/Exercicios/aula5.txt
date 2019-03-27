@@ -1,0 +1,39 @@
+public class Test {
+  private int x, y, z, w;
+  public void sub1() { int a, y, z, w; }
+  public void sub2() { int a, b, z, w; }
+  public void sub3() { int a, b, c, w; }
+  public void sub4() { int a, b, c, d; }
+  public static void main(String[] args) { }
+}
+
+
+a) main chama sub1; sub1 chama sub2; sub2 chama sub3.
+a, b, c, w do sub3;
+z do sub2;
+y do sub1;
+x do main;
+
+b) main chama sub2; sub2 chama sub3; sub3 chama sub4.
+a, b, c, d do sub4;
+w do sub3;
+z do sub2;
+x, y do main;
+
+c) main chama sub2; sub2 chama sub3; sub3 chama sub1.
+a, y, z, w do sub1;
+b, c do sub3;
+x do main;
+
+d) main chama sub4; sub4 chama sub3; sub3 chama sub1.
+a, y, z, w do sub1;
+b, c do sub3;
+d do sub4;
+x do main;
+
+e) main chama sub3; sub3 chama sub2; sub2 chama sub1.
+a, y, z, w do sub1;
+b do sub2;
+c do sub3;
+x do main;
+
