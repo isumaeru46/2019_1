@@ -1,0 +1,9 @@
+	
+3.5 - Implementação dos seviços
+	Escrever Sobre o desenvolvimento do sistema parte por parte. {Não faço a mínima idéia do que escrever}
+	
+4 - Protótipo e resultados
+	Escrever o resultado.
+	
+
+OBS: Sobre a parte  da identificação do conteúdo do texto da matéria, será nexessário uma ferramenta de limpeza de dados, indexação dos textos, e machine learning para então fazer o sistema de recomendação. VAI DEMORAR. Fica como trabalhos futuros.
